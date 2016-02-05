@@ -1,5 +1,7 @@
 # hugo-rapid-theme
 
+Demo: [http://blog.coderzh.com/](http://blog.coderzh.com/)
+
 ## Step1 Install Hugo
 
 Set [Hugo Install](http://www.gohugo.org/doc/overview/installing/)
