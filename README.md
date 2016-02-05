@@ -15,16 +15,24 @@ cd your-blog-name
 
 ```
 git clone https://github.com/coderzh/hugo-rapid-theme.git themes/hugo-rapid-theme
+
+# replace config file
+rm config.toml
 cp themes/hugo-rapid-theme/config.yaml .
 ```
 
 ## Step4 Start your site
 
 ```
+# new content
+hugo new about.md
+# start server
 hugo server
 ```
 
 ## Step5 Have Fun
+
+Now you can open [http://localhost:1313](http://localhost:1313)
 
 Modify the config.yaml and other things, and have fun!
 
