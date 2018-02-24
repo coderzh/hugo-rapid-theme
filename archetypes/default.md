@@ -1,5 +1,6 @@
 ---
-title: ""
+title: "{{ replace .TranslationBaseName "-" " " | title }}"
+date: {{ .Date }}
 description: ""
 categories:
  - 读书笔记
