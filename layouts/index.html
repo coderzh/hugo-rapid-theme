@@ -9,11 +9,11 @@
         <div class="main-inner group">
           <section class="content">
             <div class="pad group">
-              {{ range first 1 .Data.Pages }}
+              {{ range first 1 (where site.RegularPages "Type" "post")}}
               {{ partial "featured.html" . }}
               {{end}}
               <div class="post-list group">
-                {{ range $index,$data := .Data.Pages }}
+                {{ range $index,$data := (where site.RegularPages "Type" "post")}}
                 {{ if gt $index 0 }}{{ if ge $data.Date.Year (now.Format "2006") }}
                 <div class="post-row">
                 {{ partial "postItem.html" $data }}
