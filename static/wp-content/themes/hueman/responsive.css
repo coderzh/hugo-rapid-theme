@@ -158,6 +158,7 @@
 
 	/* layout */
 	.container { padding: 0; }
+	.container-inner { max-width: 100%; }
 	.grid { width: 100%; margin: 0 0 10px; }
 
 	/* hide */
