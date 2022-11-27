@@ -227,7 +227,7 @@ h1, h2, h3, h4, h5, h6 { color: #444; font-weight: 600; -ms-word-wrap: break-wor
 .container-inner { max-width: 80%; min-width: 1380px; width: 100%; margin: 0 auto; }
 .main { background-color: #fff!important; position: relative; }
 .main-inner { position: relative; min-height: 600px; /* instead of sticky footer */ }
-.content { width: 100%; position: relative; }
+.content { min-height: 1024px; width: 100%; position: relative; }
 .pad { padding: 20px 30px 20px; }
 
 /* boxed */
