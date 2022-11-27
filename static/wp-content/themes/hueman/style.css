@@ -800,7 +800,7 @@ box-shadow: inset -1px 0 1px rgba(0,0,0,0.2); }
 /* ------------------------------------------------------------------------- */
 .single .post-title { font-size: 38px; letter-spacing: -1px; line-height: 1.3em; }
 .single .post-inner .post-thumbnail { margin-bottom: 2em; }
-.post-byline { font-size: 14px; font-weight: 400; color: #aaa; text-transform: uppercase; margin-bottom: 1em; }
+.post-byline { font-size: 14px; font-weight: 400; color: #aaa; margin-bottom: 1em; }
 
 .entry.share { padding-right: 100px; min-height: 354px; /* share buttons height */ position: relative; }
 .entry.share .entry-inner { float: left; width: 100%; }
