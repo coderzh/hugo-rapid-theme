@@ -130,29 +130,3 @@ a,
     font-weight: 500;
     margin: 1em 0 0;
 }
-
-@media only screen and (min-width: 1921px) {
-    #header {
-        background-image: url("img/theswindle-banner-1920.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-}
-
-@media only screen and (min-width: 1025px) and  (max-width: 1920px) {
-    #header {
-        background-image: url("img/theswindle-banner-1920.jpg");
-    }
-}
-
-@media only screen and (min-width: 720px) and  (max-width: 1024px) {
-    #header {
-        background-image: url("img/theswindle-banner-1024.jpg");
-    }
-}
-
-@media only screen and (max-width: 719px) {
-    #header {
-        background-image: url("img/theswindle-banner-720.jpg");
-    }
-}
