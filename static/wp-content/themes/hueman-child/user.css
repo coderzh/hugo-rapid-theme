@@ -261,3 +261,109 @@ a,
     margin-right: 0.5em;
     float: left;
 }
+
+/* ==================== doocs/md 经典主题 - 翡翠绿(#009874) ==================== */
+
+/* h1: 居中，底部绿色下划线 */
+.entry h1 {
+    display: table !important;
+    padding: 0 1em !important;
+    border-bottom: 2px solid #009874 !important;
+    margin: 2em auto 1em !important;
+    color: #444 !important;
+    font-size: 1.4em !important;
+    font-weight: bold !important;
+    text-align: center !important;
+    letter-spacing: normal !important;
+    line-height: 1.6 !important;
+}
+
+/* h2: 白字绿底，居中 */
+.entry h2 {
+    display: table !important;
+    padding: 0.15em 0.8em !important;
+    margin: 2em auto 1.2em !important;
+    color: #fff !important;
+    background: #009874 !important;
+    font-size: 1.3em !important;
+    font-weight: bold !important;
+    text-align: center !important;
+    letter-spacing: normal !important;
+    line-height: 1.6 !important;
+    border: none !important;
+}
+
+/* h3: 左边绿色竖线 */
+.entry h3 {
+    padding-left: 10px !important;
+    border-left: 3px solid #009874 !important;
+    margin: 1.8em 0 0.8em 0 !important;
+    color: #444 !important;
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    line-height: 1.4 !important;
+    letter-spacing: normal !important;
+}
+
+/* h4: 翡翠绿文字 */
+.entry h4 {
+    margin: 1.8em 0 0.5em 0 !important;
+    color: #009874 !important;
+    font-size: 1.1em !important;
+    font-weight: bold !important;
+    letter-spacing: normal !important;
+}
+
+/* h5: 翡翠绿文字 */
+.entry h5 {
+    margin: 1.5em 0 0.5em 0 !important;
+    color: #009874 !important;
+    font-size: 1em !important;
+    font-weight: bold !important;
+    text-transform: none !important;
+}
+
+/* h6: 翡翠绿文字 */
+.entry h6 {
+    margin: 1.5em 0 0.5em 0 !important;
+    color: #009874 !important;
+    font-size: 1em !important;
+    font-weight: normal !important;
+    text-transform: none !important;
+}
+
+/* 行内 code */
+.entry code {
+    font-size: 90% !important;
+    color: #d14 !important;
+    background: rgba(27, 31, 35, 0.05) !important;
+    padding: 3px 5px !important;
+    border-radius: 4px !important;
+    border: none !important;
+}
+
+/* 代码块 pre */
+.entry pre {
+    font-size: 90% !important;
+    overflow-x: auto !important;
+    border-radius: 8px !important;
+    border: none !important;
+    line-height: 1.6 !important;
+    margin: 10px 0 !important;
+    padding: 0 !important;
+    background: #F3F3F3 !important;
+}
+
+/* 代码块内的 code，覆盖行内 code 样式 */
+.entry pre code {
+    display: block !important;
+    padding: 1em !important;
+    overflow-x: auto !important;
+    color: inherit !important;
+    background: none !important;
+    font-size: inherit !important;
+    border-radius: 0 !important;
+    white-space: pre !important;
+    word-wrap: normal !important;
+    margin: 0 !important;
+}
